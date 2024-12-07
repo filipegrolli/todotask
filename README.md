@@ -40,10 +40,11 @@ Certifique-se de que você tenha os seguintes softwares instalados em seu ambien
    ```
 
 3. **Configuração do Firebase**:
-   (É possível realizar o acesso mantendo os arquivos de configuração existentes. Contudo, o indicado é atualizar os acessos com seus dados próprios. Um usuário existente é "email=ttt@ttt.com" e "senha=ttt123". De qualquer forma, é possível cadastrar novos usuários e/ou realizar o login via Google.
+   
    - Crie um projeto no [Firebase Console](https://console.firebase.google.com/).
    - Ative Firestore, Firebase Authentication e Storage. (Caso possua conta do Firebase com Storage, descomentar o trecho no arquivo Admin/index.tsx para mostrar os anexos)
    - Baixe o arquivo de configuração `firebaseConfig` do seu projeto e substitua as credenciais no arquivo `src/FirebaseConnection.ts`:
+   (É possível realizar o acesso mantendo os arquivos de configuração existentes. Contudo, o indicado é atualizar os acessos com seus dados próprios. Um usuário existente é "email=ttt@ttt.com" e "senha=ttt123". De qualquer forma, é possível cadastrar novos usuários e/ou realizar o login via Google)
      ```typescript
      const firebaseConfig = {
        apiKey: "SUA_API_KEY",
