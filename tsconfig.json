@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "esModuleInterop": true,
+      "target": "es6",         // Versão do JavaScript gerado
+      "module": "commonjs",    // Sistema de módulo
+      "strict": true,          // Ativa verificações estritas
+      "outDir": "./dist",      // Pasta de saída para os arquivos compilados
+      "rootDir": "./src"       // Pasta de origem dos arquivos TypeScript
+    },
+    "include": ["src"],        // Arquivos ou diretórios a serem compilados
+    "exclude": ["node_modules"] // Arquivos ou diretórios a serem ignorados
+  }
+  
