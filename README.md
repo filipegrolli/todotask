@@ -1,6 +1,6 @@
 # TaskList - ReactJS
 
-Este é um projeto de lista de tarefas (TaskList) desenvolvido com **ReactJS** e **Firebase**. Ele oferece uma interface simples e amigável para gerenciar suas tarefas diárias.
+Este é um projeto de lista de tarefas (TaskList) desenvolvido com **ReactJS** e **Firebase**. Utilizando **Typescript**. Ele oferece uma interface simples e amigável para gerenciar suas tarefas diárias.
 
 ---
 
@@ -60,14 +60,14 @@ Certifique-se de que você tenha os seguintes softwares instalados em seu ambien
 
 1. Inicie o servidor de desenvolvimento:
    ```bash
-   npm start
+   npm run dev
    # ou
-   yarn start
+   yarn dev
    ```
 
 2. Abra o navegador e acesse:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
@@ -93,44 +93,11 @@ O projeto utiliza **Jest** e **React Testing Library** para testes.
   - `components/`: Componentes reutilizáveis.
   - `pages/`: Páginas principais da aplicação.
   - `FirebaseConnection.ts`: Configurações do Firebase.
-  - `styles/`: Arquivos de estilo.
-  - `tests/`: Arquivos de teste.
+  - `routes/`: Arquivos de rotas.
+  - `__mocks__/`: Mocks de teste.
 
 ---
 
-## 🚀 Implantação
-
-Este projeto pode ser implantado em serviços como **Vercel**, **Netlify** ou **Firebase Hosting**.
-
-### Implantação no Firebase Hosting:
-1. Instale as ferramentas do Firebase CLI:
-   ```bash
-   npm install -g firebase-tools
-   ```
-
-2. Faça login:
-   ```bash
-   firebase login
-   ```
-
-3. Inicialize o Firebase Hosting:
-   ```bash
-   firebase init hosting
-   ```
-
-4. Construa o projeto:
-   ```bash
-   npm run build
-   # ou
-   yarn build
-   ```
-
-5. Implante:
-   ```bash
-   firebase deploy
-   ```
-
----
 
 ## 🔧 Problemas Conhecidos
 
@@ -147,27 +114,6 @@ Este projeto pode ser implantado em serviços como **Vercel**, **Netlify** ou **
 
 ---
 
-## 👨‍💻 Contribuindo
-
-Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
-
-1. Faça um fork do projeto.
-2. Crie uma branch para sua feature ou correção:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. Faça o commit das alterações:
-   ```bash
-   git commit -m "Adicionei uma nova feature"
-   ```
-4. Envie para o repositório remoto:
-   ```bash
-   git push origin minha-feature
-   ```
-5. Abra um Pull Request.
-
----
-
 ## 📄 Licença
 
 Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
@@ -176,8 +122,6 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 ## 🧑‍💻 Autor
 
-Feito com ❤️ por **[Seu Nome](https://github.com/seu-usuario)**. Entre em contato para sugestões e feedbacks!
+Feito com ❤️ por **[Filipe Grolli](https://github.com/seu-usuario)**. Entre em contato para sugestões e feedbacks!
 
 ---
-
-Adapte as seções conforme necessário para refletir seu projeto específico.
