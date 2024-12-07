@@ -124,6 +124,6 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 ## 🧑‍💻 Autor
 
-Feito com ❤️ por **[Filipe Grolli](https://github.com/seu-usuario)**. Entre em contato para sugestões e feedbacks!
+Feito com ❤️ por **[Filipe Grolli](https://github.com/filipegrolli)**. Entre em contato para sugestões e feedbacks!
 
 ---
